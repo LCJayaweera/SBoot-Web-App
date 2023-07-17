@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<h4>Lakshan<h4>
+<h4>Welcome ${name}<h4>
 </body>
 </html>
 
