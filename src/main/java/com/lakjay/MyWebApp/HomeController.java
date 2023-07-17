@@ -11,13 +11,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 
     @RequestMapping("home")
-        public String home(HttpServletRequest req){
-        HttpSession session = req.getSession();
-        String name =req.getParameter("name");
+    public String home(String name,HttpSession session){
+
+
         System.out.println("Hi "+name);
         session.setAttribute("name",name);
-
-return "home";
+        return "home";
     }
 
 }
