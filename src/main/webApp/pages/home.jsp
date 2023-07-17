@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<h4>Welcome ${name}<h4>
+<h4>Welcome ${obj.aid}, ${obj.aname},${obj.lang}<h4>
 </body>
 </html>
 
